@@ -1,4 +1,4 @@
-# Getting And Cleaning Data Course
+# Getting And Cleaning Data Course Project
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
