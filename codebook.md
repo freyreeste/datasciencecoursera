@@ -99,7 +99,7 @@ activity - The type of activity performed when the corresponding measurements we
 ##Information about the experimental study design used
 description of how collected the data
 
-1. Merging the training and the test sets to create one data set.
+1. Merging the training and the test sets to create one data set
   *Reading files
         +Reading training tables
         +Reading testing tables
