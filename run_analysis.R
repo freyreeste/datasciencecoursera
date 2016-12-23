@@ -46,13 +46,13 @@ data <- data[c(1:2,564,3:563)] # arrange columns to have Activity visible
 # extract columns which contain mean and std values -- ignore letter case
 measures_mean<- grep ( "mean", colnames(data), ignore.case = TRUE )
 measures_std<- grep ( "std", colnames(data), ignore.case = TRUE)
-data_means_std <- data[ c ( 1:3, measures_mean, measures_std ) ]
+data_mean_std <- data[ c ( 1:3, measures_mean, measures_std ) ]
 
 # reshape2
 library (reshape2)
 
 # melt data set
-data_melt <- melt(data_means_std, id = c ("Subject", "Class", "Activity") , measure.vars = c(4:89), variable.name = "Features", value.name = "Signals" )
+data_melt <- melt(data_mean_std, id = c ("Subject", "Class", "Activity") , measure.vars = c(4:89), variable.name = "Features", value.name = "Signals" )
 
 # dcast by Subject & Activity, drop "Class", derive mean for Signals & adjust variable names appropriately
 data_tidy <- dcast (data_melt, Subject + Activity ~ Features, mean, value.var = "Signals")
