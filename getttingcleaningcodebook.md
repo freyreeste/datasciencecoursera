@@ -29,8 +29,6 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ##The code book
 
-For almost any data set, the measurements you calculate will need to be described in more detail than you can or should sneak into the spreadsheet. The code book contains this information. At minimum it should contain:
-
 ##Data Fields:
 
 ##Identifiers
@@ -122,12 +120,12 @@ activity - The type of activity performed when the corresponding measurements we
 
 ##Activity Labels
 *
-        +WALKING (value 1): subject was walking during the test
-        +WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
-        +WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
-        +SITTING (value 4): subject was sitting during the test
-        +STANDING (value 5): subject was standing during the test
-        +LAYING (value 6): subject was laying down during the test
+        +WALKING (v1): subject was walking during the test
+        +WALKING_UPSTAIRS (v2): subject was walking up a staircase during the test
+        +WALKING_DOWNSTAIRS (v3): subject was walking down a staircase during the test
+        +SITTING (v4): subject was sitting during the test
+        +STANDING (v5): subject was standing during the test
+        +LAYING (v6): subject was laying down during the test
 
 ##Information about the summary choices made
 
