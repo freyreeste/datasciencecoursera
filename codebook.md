@@ -1,34 +1,3 @@
----
-title: "GettingCleaningProjectCodeBook.md"
-author: "Esteban Freyre"
-date: "22 de diciembre de 2016"
-output: 
-  html_document: 
-    keep_md: yes
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-
-
 ##Data Fields:
 
 ##Identifiers
@@ -127,8 +96,6 @@ activity - The type of activity performed when the corresponding measurements we
         +STANDING (v5): subject was standing during the test
         +LAYING (v6): subject was laying down during the test
 
-##Information about the summary choices made
-
 ##Information about the experimental study design used
 description of how collected the data
 
@@ -149,5 +116,3 @@ description of how collected the data
 5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject
         +Making second tidy data set
         +Writing second tidy data set in txt file
-
-any other information about how you did the data collection/study design. For example, are these the first 20 patients that walked into the clinic? Are they 20 highly selected patients by some characteristic like age? Are they randomized to treatments?
