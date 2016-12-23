@@ -144,8 +144,8 @@ description of how collected the data
         +Merging all data in one set
 2. Extracting only the measurements on the mean and standard deviation for each measurement
         +Reading column names
-        +Create vector for defining ID, mean and standard deviation
-        +Making nessesary subset from setAllInOne
+        +Create vector for defining ID, mean and standard deviation ignoring letter case
+        +Making nessesary subset from the merged data
 3. Using descriptive activity names to name the activities in the data set
 4. Appropriately labeling the data set with descriptive variable names
 5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject
