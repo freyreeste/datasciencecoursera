@@ -100,7 +100,7 @@ activity - The type of activity performed when the corresponding measurements we
 description of how collected the data
 
 1. Merging the training and the test sets to create one data set
-  *Reading files
+* 
         +Reading training tables
         +Reading testing tables
         +Reading features vector
@@ -108,11 +108,13 @@ description of how collected the data
         +Assigning column names
         +Merging all data in one dataset
 2. Subsetting the measurements on the mean and standard deviation for each measurement
+*
         +Reading column names
         +Create vector for defining ID, mean and standard deviation ignoring letter case
         +Making nessesary subset from the merged data
 3. Using descriptive activity names for the activities in the data set
 4. Appropriately labeling the data set with descriptive variable names
 5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject
+*
         +Making second tidy data set
         +Writing second tidy data set in txt file
