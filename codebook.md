@@ -1,3 +1,5 @@
+#This code book summarizes the resulting data fields in data_tidy.txt
+
 ##Data Fields:
 
 ##Identifiers
