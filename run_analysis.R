@@ -59,5 +59,5 @@ data_tidy <- dcast (data_melt, Subject + Activity ~ Features, mean, value.var = 
 features_tidy <- c ("Subject", "Activity", paste ( "Mean of", colnames(data_tidy[,3:88]) ) )
 colnames(data_tidy) <- features_tidy
 
-write.table(data_tidy, "data_tidy", row.name=FALSE)
-write.csv(data_tidy, "data_tidy.csv")
+write.table(data_tidy, file = "data_tidy.txt", row.name=FALSE)
+
