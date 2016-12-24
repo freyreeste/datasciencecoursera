@@ -1,5 +1,7 @@
 # Getting And Cleaning Data Course Project
 
+## Esteban Freyre
+
 Instructions
 
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set.
